@@ -117,9 +117,6 @@ sgx.trusted_files = [
   "file:/usr/lib/ssl/openssl.cnf",
   "file:training.py",
   "file:premain-libos",
-  "file:a2d2.py",
-  "file:unet.py",
-  "file:chief.py",
 ]
 
 ############################# SGX: ALLOWED FILES ##############################
@@ -142,7 +139,7 @@ sgx.allowed_files = [
   "file:/etc/ld.so.cache",
 ]
 
-# sgx.file_check_policy = "allow_all_but_log"
+sgx.file_check_policy = "allow_all_but_log"
 
 ############################# SGX: Attestation ################################
 

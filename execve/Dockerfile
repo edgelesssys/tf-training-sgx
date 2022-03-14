@@ -1,4 +1,4 @@
-FROM go:1.17 AS buil_caller
+FROM golang:1.17 AS build
 COPY ./caller.go ./go.mod ./go.sum /caller/
 WORKDIR /caller
 RUN go build -o caller ./caller.go
@@ -30,7 +30,7 @@ RUN apt-get update && apt-get install -y \
 
 WORKDIR /app
 COPY ./* /app
-COPY --from=build_caller /caller/caller /app/
+COPY --from=build /caller/caller /app/
 ARG worker
 RUN --mount=type=secret,id=signingkey,dst=/app/signing_key.pem,required=true \
     make DEBUG=0 SGX=1 WORKER=${worker} && \

@@ -34,7 +34,7 @@ COPY ./* /app
 ARG worker
 COPY --from=premain /premain-libos /app
 RUN --mount=type=secret,id=signingkey,dst=/app/signing_key.pem,required=true \
-    make DEBUG=0 SGX=0 WORKER=${worker} && \
+    make DEBUG=1 SGX=0 WORKER=${worker} && \
     mkdir tmp
 
 ENTRYPOINT [ "gramine-direct", "python", "training.py" ]
