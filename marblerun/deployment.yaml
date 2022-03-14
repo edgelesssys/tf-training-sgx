@@ -1,0 +1,132 @@
+apiVersion: "kubeflow.org/v1"
+kind: "TFJob"
+metadata:
+  name: "d-paddles-training"
+  namespace: kubeflow
+spec:
+  tfReplicaSpecs:
+    Chief:
+      replicas: 1
+      restartPolicy: OnFailure
+      template:
+        metadata:
+          labels:
+            marblerun/marbletype: Chief
+        spec:
+          imagePullSecrets:
+          - name: regcred
+          containers:
+            - name: tensorflow
+              image: ghcr.io/edgelesssys/tf-training:marblerun
+              imagePullPolicy: Always
+              resources:
+                requests:
+                  cpu: 4
+                  memory: "12Gi"
+                  sgx.intel.com/epc: "8G"
+                  sgx.intel.com/enclave: 1
+                  sgx.intel.com/provision: 1
+                limits:
+                  sgx.intel.com/epc: "8G"
+                  sgx.intel.com/enclave: 1
+                  sgx.intel.com/provision: 1
+              env:
+                - name: SGX_AESM_ADDR
+                  value: "1"
+                - name: EDG_MARBLE_UUID_FILE
+                  value: uuid
+              command:
+                - "gramine-sgx"
+                - "python"
+                - "training.py"
+                - "--log_dir=/train"
+                - "--checkpoint_dir=/train"
+              volumeMounts:
+                - name: aesmd
+                  mountPath: /var/run/aesmd/
+          volumes:
+            - name: aesmd
+              hostPath:
+                path: /var/run/aesmd/
+    PS:
+      replicas: 1
+      restartPolicy: Never
+      template:
+        metadata:
+          labels:
+            marblerun/marbletype: PS
+        spec:
+          imagePullSecrets:
+          - name: regcred
+          containers:
+            - name: tensorflow
+              image: ghcr.io/edgelesssys/tf-training:marblerun
+              imagePullPolicy: Always
+              resources:
+                requests:
+                  cpu: 2
+                  memory: "12Gi"
+                  sgx.intel.com/epc: "8G"
+                  sgx.intel.com/enclave: 1
+                  sgx.intel.com/provision: 1
+                limits:
+                  sgx.intel.com/epc: "8G"
+                  sgx.intel.com/enclave: 1
+                  sgx.intel.com/provision: 1
+              env:
+                - name: SGX_AESM_ADDR
+                  value: "1"
+                - name: EDG_MARBLE_UUID_FILE
+                  value: uuid
+              command:
+                - "gramine-sgx"
+                - "python"
+                - "training.py"
+              volumeMounts:
+                - name: aesmd
+                  mountPath: /var/run/aesmd/
+          volumes:
+            - name: aesmd
+              hostPath:
+                path: /var/run/aesmd/
+    Worker:
+      replicas: 1
+      restartPolicy: Never
+      template:
+        metadata:
+          labels:
+            marblerun/marbletype: Worker
+        spec:
+          imagePullSecrets:
+          - name: regcred
+          containers:
+            - name: tensorflow
+              image: ghcr.io/edgelesssys/tf-training:marblerun-worker
+              imagePullPolicy: Always
+              resources:
+                requests:
+                  cpu: 6
+                  memory: "18Gi"
+                  sgx.intel.com/epc: "16G"
+                  sgx.intel.com/enclave: 1
+                  sgx.intel.com/provision: 1
+                limits:
+                  sgx.intel.com/epc: "16G"
+                  sgx.intel.com/enclave: 1
+                  sgx.intel.com/provision: 1
+              env:
+                - name: SGX_AESM_ADDR
+                  value: "1"
+                - name: EDG_MARBLE_UUID_FILE
+                  value: uuid
+              command:
+                - "gramine-sgx"
+                - "python"
+                - "training.py"
+              volumeMounts:
+                - name: aesmd
+                  mountPath: /var/run/aesmd/
+          volumes:
+            - name: aesmd
+              hostPath:
+                path: /var/run/aesmd/

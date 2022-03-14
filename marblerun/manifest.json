@@ -1,0 +1,40 @@
+{
+    "Packages": {
+        "training": {
+            "SignerID": "43361affedeb75affee9baec7e054a5e14883213e5a121b67d74a0e12e9d2b7a",
+            "ProductID": 3,
+            "SecurityVersion": 1
+        }
+    },
+    "Marbles": {
+        "Chief": {
+            "Package": "training",
+            "Parameters": {
+                "Argv": [
+                    "python",
+                    "training.py",
+                    "--log_dir=/train",
+                    "--checkpoint_dir=/train"
+                ]
+            }
+        },
+        "PS": {
+            "Package": "training",
+            "Parameters": {
+                "Argv": [
+                    "python",
+                    "training.py"
+                ]
+            }
+        },
+        "Worker": {
+            "Package": "training",
+            "Parameters": {
+                "Argv": [
+                    "python",
+                    "training.py"
+                ]
+            }
+        }
+    }
+}

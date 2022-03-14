@@ -1,0 +1,84 @@
+apiVersion: "kubeflow.org/v1"
+kind: "TFJob"
+metadata:
+  name: "d-paddles-training"
+  namespace: kubeflow
+spec:
+  tfReplicaSpecs:
+    Chief:
+      replicas: 1
+      restartPolicy: OnFailure
+      template:
+        metadata:
+          labels:
+            marblerun/marbletype: Chief
+        spec:
+          imagePullSecrets:
+          - name: regcred
+          containers:
+            - name: tensorflow
+              image: ghcr.io/edgelesssys/tf-training:simulation
+              imagePullPolicy: Always
+              resources:
+                requests:
+                  cpu: 4
+                  memory: "12Gi"
+              env:
+                - name: EDG_MARBLE_UUID_FILE
+                  value: uuid
+              command:
+                - "gramine-direct"
+                - "python"
+                - "training.py"
+                - "--log_dir=/train"
+                - "--checkpoint_dir=/train"
+    PS:
+      replicas: 1
+      restartPolicy: Never
+      template:
+        metadata:
+          labels:
+            marblerun/marbletype: PS
+        spec:
+          imagePullSecrets:
+          - name: regcred
+          containers:
+            - name: tensorflow
+              image: ghcr.io/edgelesssys/tf-training:simulation
+              imagePullPolicy: Always
+              resources:
+                requests:
+                  cpu: 2
+                  memory: "12Gi"
+              env:
+                - name: EDG_MARBLE_UUID_FILE
+                  value: uuid
+              command:
+                - "gramine-direct"
+                - "python"
+                - "training.py"
+    Worker:
+      replicas: 1
+      restartPolicy: Never
+      template:
+        metadata:
+          labels:
+            marblerun/marbletype: Worker
+        spec:
+          imagePullSecrets:
+          - name: regcred
+          containers:
+            - name: tensorflow
+              image: ghcr.io/edgelesssys/tf-training:simulation-worker
+              imagePullPolicy: Always
+              resources:
+                requests:
+                  cpu: 6
+                  memory: "18Gi"
+              env:
+                - name: EDG_MARBLE_UUID_FILE
+                  value: uuid
+              command:
+                - "gramine-direct"
+                - "python"
+                - "training.py"
