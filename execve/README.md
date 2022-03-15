@@ -2,28 +2,6 @@
 
 This setup runs TF-Training with Gramine in SGX. The Python program is called from a Go application using `execve` to simulate a heavily simplified behavior of MarbleRun's premain.
 
-## Cluster setup
-
-Install KubeFlow training operator:
-```shell
-kubectl apply -k "github.com/kubeflow/training-operator/manifests/overlays/standalone?ref=v1.3.0"
-```
-
-Create registry credential secret:
-```shell
-kubectl create secret generic regcred \
-    --namespace=kubeflow \
-    --from-file=.dockerconfigjson="$HOME/.docker/config.json" \
-    --type=kubernetes.io/dockerconfigjson
-```
-
-### `minikube` setup
-
-Start the cluster with enough resources and sgx devices:
-```shell
-minikube start --cpus=7 --memory=50GiB --mount --mount-string /dev/sgx/:/dev/sgx/
-```
-
 ## Training test
 
 Start the training workflow:
