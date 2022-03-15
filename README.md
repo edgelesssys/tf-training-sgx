@@ -24,6 +24,8 @@ CLUSTERNAME=sgx-cluster RESOURCEGROUP=myGroup NODES=2 \
 
 ### minikube
 
+We evaluated this on a `Standard_DC32s_v3` VM in Azure running `Ubuntu 20.04` with Kernel `5.13.0-1017-azure`.
+
 Start the cluster with enough resources:
 ```shell
 minikube start --cpus=14 --memory=50GiB --mount --mount-string /var/run/aesmd/:/var/run/aesmd/
