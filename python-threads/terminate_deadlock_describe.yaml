@@ -1,0 +1,75 @@
+Name:                      threads
+Namespace:                 threads
+Priority:                  0
+Node:                      aks-sgxnodepool-39565807-vmss000002/10.240.0.5
+Start Time:                Fri, 01 Apr 2022 11:11:26 +0200
+Labels:                    marblerun/marbletype=Threads
+Annotations:               <none>
+Status:                    Terminating (lasts 3m33s)
+Termination Grace Period:  30s
+IP:                        10.244.2.167
+IPs:
+  IP:  10.244.2.167
+Containers:
+  client-container:
+    Container ID:   containerd://489618d267c13fd1a5b996b1042eec7ed1c6989f0c88d96b213cc3505cb850e8
+    Image:          ghcr.io/edgelesssys/threads-test:latest
+    Image ID:       ghcr.io/edgelesssys/threads-test@sha256:4a63d2366836a5fd9134b5733c4eeade0fb9745594ce3153b1b1dbb2511f9696
+    Port:           <none>
+    Host Port:      <none>
+    State:          Running
+      Started:      Fri, 01 Apr 2022 11:11:41 +0200
+    Ready:          True
+    Restart Count:  0
+    Limits:
+      sgx.intel.com/enclave:    1
+      sgx.intel.com/epc:        1G
+      sgx.intel.com/provision:  1
+    Requests:
+      memory:                   1Gi
+      sgx.intel.com/enclave:    1
+      sgx.intel.com/epc:        1G
+      sgx.intel.com/provision:  1
+    Environment:
+      SGX_AESM_ADDR:                1
+      EDG_MARBLE_UUID_FILE:         uuid
+      EDG_MARBLE_COORDINATOR_ADDR:  coordinator-mesh-api.marblerun:2001
+      EDG_MARBLE_TYPE:              Threads
+      EDG_MARBLE_DNS_NAMES:         threads,threads.threads,threads.threads.svc.cluster.local
+    Mounts:
+      /var/run/aesmd/ from aesmd (rw)
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-svp5v (ro)
+Conditions:
+  Type              Status
+  Initialized       True 
+  Ready             True 
+  ContainersReady   True 
+  PodScheduled      True 
+Volumes:
+  aesmd:
+    Type:          HostPath (bare host directory volume)
+    Path:          /var/run/aesmd/
+    HostPathType:  
+  kube-api-access-svp5v:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   Burstable
+Node-Selectors:              <none>
+Tolerations:                 node.kubernetes.io/memory-pressure:NoSchedule op=Exists
+                             node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+                             sgx.intel.com/enclave:NoSchedule op=Exists
+                             sgx.intel.com/epc:NoSchedule op=Exists
+                             sgx.intel.com/provision:NoSchedule op=Exists
+Events:
+  Type    Reason     Age    From               Message
+  ----    ------     ----   ----               -------
+  Normal  Scheduled  4m53s  default-scheduler  Successfully assigned threads/threads to aks-sgxnodepool-39565807-vmss000002
+  Normal  Pulling    4m54s  kubelet            Pulling image "ghcr.io/edgelesssys/threads-test:latest"
+  Normal  Pulled     4m46s  kubelet            Successfully pulled image "ghcr.io/edgelesssys/threads-test:latest" in 7.809565971s
+  Normal  Created    4m40s  kubelet            Created container client-container
+  Normal  Started    4m39s  kubelet            Started container client-container
+  Normal  Killing    4m3s   kubelet            Stopping container client-container

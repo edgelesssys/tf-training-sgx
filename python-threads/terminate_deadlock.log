@@ -1,0 +1,1523 @@
+debug: Token file: python.token
+debug: Read dummy DCAP token
+debug: enclave created:
+debug:     base:           0x0000000000000000
+debug:     size:           0x0000000040000000
+debug:     misc_select:    0x00000000
+debug:     attr.flags:     0x0000000000000005
+debug:     attr.xfrm:      0x00000000000000e7
+debug:     ssa_frame_size: 4
+debug:     isv_prod_id:    0x00000000
+debug:     isv_svn:        0x00000000
+debug: adding pages to enclave: 0x3fef5000-0x40000000 [REG:R--] (manifest) measured
+debug: adding pages to enclave: 0x3f405000-0x3fef5000 [REG:RW-] (ssa) measured
+debug: adding pages to enclave: 0x3f2a7000-0x3f405000 [TCS:---] (tcs) measured
+debug: adding pages to enclave: 0x3f149000-0x3f2a7000 [REG:RW-] (tls) measured
+debug: adding pages to enclave: 0x3f109000-0x3f149000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3f0c9000-0x3f109000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3f089000-0x3f0c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3f049000-0x3f089000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3f009000-0x3f049000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3efc9000-0x3f009000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ef89000-0x3efc9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ef49000-0x3ef89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ef09000-0x3ef49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3eec9000-0x3ef09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ee89000-0x3eec9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ee49000-0x3ee89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ee09000-0x3ee49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3edc9000-0x3ee09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ed89000-0x3edc9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ed49000-0x3ed89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ed09000-0x3ed49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ecc9000-0x3ed09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ec89000-0x3ecc9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ec49000-0x3ec89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ec09000-0x3ec49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ebc9000-0x3ec09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3eb89000-0x3ebc9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3eb49000-0x3eb89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3eb09000-0x3eb49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3eac9000-0x3eb09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ea89000-0x3eac9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ea49000-0x3ea89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ea09000-0x3ea49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e9c9000-0x3ea09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e989000-0x3e9c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e949000-0x3e989000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e909000-0x3e949000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e8c9000-0x3e909000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e889000-0x3e8c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e849000-0x3e889000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e809000-0x3e849000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e7c9000-0x3e809000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e789000-0x3e7c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e749000-0x3e789000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e709000-0x3e749000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e6c9000-0x3e709000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e689000-0x3e6c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e649000-0x3e689000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e609000-0x3e649000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e5c9000-0x3e609000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e589000-0x3e5c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e549000-0x3e589000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e509000-0x3e549000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e4c9000-0x3e509000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e489000-0x3e4c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e449000-0x3e489000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e409000-0x3e449000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e3c9000-0x3e409000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e389000-0x3e3c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e349000-0x3e389000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e309000-0x3e349000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e2c9000-0x3e309000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e289000-0x3e2c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e249000-0x3e289000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e209000-0x3e249000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e1c9000-0x3e209000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e189000-0x3e1c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e149000-0x3e189000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e109000-0x3e149000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e0c9000-0x3e109000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e089000-0x3e0c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e049000-0x3e089000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3e009000-0x3e049000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3dfc9000-0x3e009000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3df89000-0x3dfc9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3df49000-0x3df89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3df09000-0x3df49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3dec9000-0x3df09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3de89000-0x3dec9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3de49000-0x3de89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3de09000-0x3de49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ddc9000-0x3de09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3dd89000-0x3ddc9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3dd49000-0x3dd89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3dd09000-0x3dd49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3dcc9000-0x3dd09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3dc89000-0x3dcc9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3dc49000-0x3dc89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3dc09000-0x3dc49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3dbc9000-0x3dc09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3db89000-0x3dbc9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3db49000-0x3db89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3db09000-0x3db49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3dac9000-0x3db09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3da89000-0x3dac9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3da49000-0x3da89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3da09000-0x3da49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d9c9000-0x3da09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d989000-0x3d9c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d949000-0x3d989000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d909000-0x3d949000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d8c9000-0x3d909000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d889000-0x3d8c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d849000-0x3d889000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d809000-0x3d849000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d7c9000-0x3d809000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d789000-0x3d7c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d749000-0x3d789000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d709000-0x3d749000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d6c9000-0x3d709000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d689000-0x3d6c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d649000-0x3d689000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d609000-0x3d649000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d5c9000-0x3d609000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d589000-0x3d5c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d549000-0x3d589000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d509000-0x3d549000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d4c9000-0x3d509000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d489000-0x3d4c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d449000-0x3d489000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d409000-0x3d449000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d3c9000-0x3d409000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d389000-0x3d3c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d349000-0x3d389000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d309000-0x3d349000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d2c9000-0x3d309000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d289000-0x3d2c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d249000-0x3d289000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d209000-0x3d249000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d1c9000-0x3d209000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d189000-0x3d1c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d149000-0x3d189000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d109000-0x3d149000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d0c9000-0x3d109000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d089000-0x3d0c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d049000-0x3d089000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3d009000-0x3d049000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3cfc9000-0x3d009000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3cf89000-0x3cfc9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3cf49000-0x3cf89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3cf09000-0x3cf49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3cec9000-0x3cf09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ce89000-0x3cec9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ce49000-0x3ce89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ce09000-0x3ce49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3cdc9000-0x3ce09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3cd89000-0x3cdc9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3cd49000-0x3cd89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3cd09000-0x3cd49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ccc9000-0x3cd09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3cc89000-0x3ccc9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3cc49000-0x3cc89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3cc09000-0x3cc49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3cbc9000-0x3cc09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3cb89000-0x3cbc9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3cb49000-0x3cb89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3cb09000-0x3cb49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3cac9000-0x3cb09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ca89000-0x3cac9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ca49000-0x3ca89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ca09000-0x3ca49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c9c9000-0x3ca09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c989000-0x3c9c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c949000-0x3c989000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c909000-0x3c949000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c8c9000-0x3c909000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c889000-0x3c8c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c849000-0x3c889000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c809000-0x3c849000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c7c9000-0x3c809000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c789000-0x3c7c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c749000-0x3c789000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c709000-0x3c749000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c6c9000-0x3c709000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c689000-0x3c6c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c649000-0x3c689000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c609000-0x3c649000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c5c9000-0x3c609000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c589000-0x3c5c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c549000-0x3c589000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c509000-0x3c549000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c4c9000-0x3c509000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c489000-0x3c4c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c449000-0x3c489000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c409000-0x3c449000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c3c9000-0x3c409000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c389000-0x3c3c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c349000-0x3c389000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c309000-0x3c349000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c2c9000-0x3c309000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c289000-0x3c2c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c249000-0x3c289000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c209000-0x3c249000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c1c9000-0x3c209000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c189000-0x3c1c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c149000-0x3c189000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c109000-0x3c149000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c0c9000-0x3c109000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c089000-0x3c0c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c049000-0x3c089000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3c009000-0x3c049000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3bfc9000-0x3c009000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3bf89000-0x3bfc9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3bf49000-0x3bf89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3bf09000-0x3bf49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3bec9000-0x3bf09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3be89000-0x3bec9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3be49000-0x3be89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3be09000-0x3be49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3bdc9000-0x3be09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3bd89000-0x3bdc9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3bd49000-0x3bd89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3bd09000-0x3bd49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3bcc9000-0x3bd09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3bc89000-0x3bcc9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3bc49000-0x3bc89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3bc09000-0x3bc49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3bbc9000-0x3bc09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3bb89000-0x3bbc9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3bb49000-0x3bb89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3bb09000-0x3bb49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3bac9000-0x3bb09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ba89000-0x3bac9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ba49000-0x3ba89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ba09000-0x3ba49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b9c9000-0x3ba09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b989000-0x3b9c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b949000-0x3b989000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b909000-0x3b949000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b8c9000-0x3b909000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b889000-0x3b8c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b849000-0x3b889000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b809000-0x3b849000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b7c9000-0x3b809000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b789000-0x3b7c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b749000-0x3b789000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b709000-0x3b749000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b6c9000-0x3b709000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b689000-0x3b6c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b649000-0x3b689000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b609000-0x3b649000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b5c9000-0x3b609000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b589000-0x3b5c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b549000-0x3b589000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b509000-0x3b549000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b4c9000-0x3b509000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b489000-0x3b4c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b449000-0x3b489000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b409000-0x3b449000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b3c9000-0x3b409000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b389000-0x3b3c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b349000-0x3b389000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b309000-0x3b349000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b2c9000-0x3b309000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b289000-0x3b2c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b249000-0x3b289000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b209000-0x3b249000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b1c9000-0x3b209000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b189000-0x3b1c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b149000-0x3b189000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b109000-0x3b149000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b0c9000-0x3b109000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b089000-0x3b0c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b049000-0x3b089000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3b009000-0x3b049000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3afc9000-0x3b009000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3af89000-0x3afc9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3af49000-0x3af89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3af09000-0x3af49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3aec9000-0x3af09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ae89000-0x3aec9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ae49000-0x3ae89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ae09000-0x3ae49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3adc9000-0x3ae09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ad89000-0x3adc9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ad49000-0x3ad89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ad09000-0x3ad49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3acc9000-0x3ad09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ac89000-0x3acc9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ac49000-0x3ac89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ac09000-0x3ac49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3abc9000-0x3ac09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ab89000-0x3abc9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ab49000-0x3ab89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3ab09000-0x3ab49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3aac9000-0x3ab09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3aa89000-0x3aac9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3aa49000-0x3aa89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3aa09000-0x3aa49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a9c9000-0x3aa09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a989000-0x3a9c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a949000-0x3a989000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a909000-0x3a949000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a8c9000-0x3a909000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a889000-0x3a8c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a849000-0x3a889000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a809000-0x3a849000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a7c9000-0x3a809000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a789000-0x3a7c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a749000-0x3a789000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a709000-0x3a749000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a6c9000-0x3a709000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a689000-0x3a6c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a649000-0x3a689000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a609000-0x3a649000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a5c9000-0x3a609000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a589000-0x3a5c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a549000-0x3a589000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a509000-0x3a549000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a4c9000-0x3a509000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a489000-0x3a4c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a449000-0x3a489000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a409000-0x3a449000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a3c9000-0x3a409000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a389000-0x3a3c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a349000-0x3a389000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a309000-0x3a349000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a2c9000-0x3a309000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a289000-0x3a2c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a249000-0x3a289000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a209000-0x3a249000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a1c9000-0x3a209000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a189000-0x3a1c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a149000-0x3a189000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a109000-0x3a149000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a0c9000-0x3a109000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a089000-0x3a0c9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a049000-0x3a089000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x3a009000-0x3a049000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x39fc9000-0x3a009000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x39f89000-0x39fc9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x39f49000-0x39f89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x39f09000-0x39f49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x39ec9000-0x39f09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x39e89000-0x39ec9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x39e49000-0x39e89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x39e09000-0x39e49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x39dc9000-0x39e09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x39d89000-0x39dc9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x39d49000-0x39d89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x39d09000-0x39d49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x39cc9000-0x39d09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x39c89000-0x39cc9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x39c49000-0x39c89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x39c09000-0x39c49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x39bc9000-0x39c09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x39b89000-0x39bc9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x39b49000-0x39b89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x39b09000-0x39b49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x39ac9000-0x39b09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x39a89000-0x39ac9000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x39a49000-0x39a89000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x39a09000-0x39a49000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x399c9000-0x39a09000 [REG:RW-] (stack) measured
+debug: adding pages to enclave: 0x399b9000-0x399c9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x399a9000-0x399b9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39999000-0x399a9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39989000-0x39999000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39979000-0x39989000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39969000-0x39979000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39959000-0x39969000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39949000-0x39959000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39939000-0x39949000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39929000-0x39939000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39919000-0x39929000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39909000-0x39919000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x398f9000-0x39909000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x398e9000-0x398f9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x398d9000-0x398e9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x398c9000-0x398d9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x398b9000-0x398c9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x398a9000-0x398b9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39899000-0x398a9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39889000-0x39899000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39879000-0x39889000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39869000-0x39879000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39859000-0x39869000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39849000-0x39859000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39839000-0x39849000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39829000-0x39839000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39819000-0x39829000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39809000-0x39819000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x397f9000-0x39809000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x397e9000-0x397f9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x397d9000-0x397e9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x397c9000-0x397d9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x397b9000-0x397c9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x397a9000-0x397b9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39799000-0x397a9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39789000-0x39799000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39779000-0x39789000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39769000-0x39779000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39759000-0x39769000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39749000-0x39759000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39739000-0x39749000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39729000-0x39739000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39719000-0x39729000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39709000-0x39719000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x396f9000-0x39709000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x396e9000-0x396f9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x396d9000-0x396e9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x396c9000-0x396d9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x396b9000-0x396c9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x396a9000-0x396b9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39699000-0x396a9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39689000-0x39699000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39679000-0x39689000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39669000-0x39679000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39659000-0x39669000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39649000-0x39659000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39639000-0x39649000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39629000-0x39639000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39619000-0x39629000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39609000-0x39619000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x395f9000-0x39609000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x395e9000-0x395f9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x395d9000-0x395e9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x395c9000-0x395d9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x395b9000-0x395c9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x395a9000-0x395b9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39599000-0x395a9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39589000-0x39599000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39579000-0x39589000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39569000-0x39579000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39559000-0x39569000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39549000-0x39559000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39539000-0x39549000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39529000-0x39539000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39519000-0x39529000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39509000-0x39519000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x394f9000-0x39509000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x394e9000-0x394f9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x394d9000-0x394e9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x394c9000-0x394d9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x394b9000-0x394c9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x394a9000-0x394b9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39499000-0x394a9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39489000-0x39499000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39479000-0x39489000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39469000-0x39479000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39459000-0x39469000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39449000-0x39459000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39439000-0x39449000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39429000-0x39439000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39419000-0x39429000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39409000-0x39419000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x393f9000-0x39409000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x393e9000-0x393f9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x393d9000-0x393e9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x393c9000-0x393d9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x393b9000-0x393c9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x393a9000-0x393b9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39399000-0x393a9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39389000-0x39399000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39379000-0x39389000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39369000-0x39379000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39359000-0x39369000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39349000-0x39359000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39339000-0x39349000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39329000-0x39339000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39319000-0x39329000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39309000-0x39319000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x392f9000-0x39309000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x392e9000-0x392f9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x392d9000-0x392e9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x392c9000-0x392d9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x392b9000-0x392c9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x392a9000-0x392b9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39299000-0x392a9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39289000-0x39299000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39279000-0x39289000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39269000-0x39279000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39259000-0x39269000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39249000-0x39259000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39239000-0x39249000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39229000-0x39239000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39219000-0x39229000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39209000-0x39219000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x391f9000-0x39209000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x391e9000-0x391f9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x391d9000-0x391e9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x391c9000-0x391d9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x391b9000-0x391c9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x391a9000-0x391b9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39199000-0x391a9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39189000-0x39199000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39179000-0x39189000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39169000-0x39179000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39159000-0x39169000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39149000-0x39159000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39139000-0x39149000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39129000-0x39139000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39119000-0x39129000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39109000-0x39119000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x390f9000-0x39109000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x390e9000-0x390f9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x390d9000-0x390e9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x390c9000-0x390d9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x390b9000-0x390c9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x390a9000-0x390b9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39099000-0x390a9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39089000-0x39099000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39079000-0x39089000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39069000-0x39079000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39059000-0x39069000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39049000-0x39059000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39039000-0x39049000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39029000-0x39039000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39019000-0x39029000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x39009000-0x39019000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38ff9000-0x39009000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38fe9000-0x38ff9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38fd9000-0x38fe9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38fc9000-0x38fd9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38fb9000-0x38fc9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38fa9000-0x38fb9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38f99000-0x38fa9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38f89000-0x38f99000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38f79000-0x38f89000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38f69000-0x38f79000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38f59000-0x38f69000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38f49000-0x38f59000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38f39000-0x38f49000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38f29000-0x38f39000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38f19000-0x38f29000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38f09000-0x38f19000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38ef9000-0x38f09000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38ee9000-0x38ef9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38ed9000-0x38ee9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38ec9000-0x38ed9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38eb9000-0x38ec9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38ea9000-0x38eb9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38e99000-0x38ea9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38e89000-0x38e99000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38e79000-0x38e89000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38e69000-0x38e79000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38e59000-0x38e69000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38e49000-0x38e59000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38e39000-0x38e49000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38e29000-0x38e39000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38e19000-0x38e29000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38e09000-0x38e19000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38df9000-0x38e09000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38de9000-0x38df9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38dd9000-0x38de9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38dc9000-0x38dd9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38db9000-0x38dc9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38da9000-0x38db9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38d99000-0x38da9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38d89000-0x38d99000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38d79000-0x38d89000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38d69000-0x38d79000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38d59000-0x38d69000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38d49000-0x38d59000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38d39000-0x38d49000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38d29000-0x38d39000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38d19000-0x38d29000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38d09000-0x38d19000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38cf9000-0x38d09000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38ce9000-0x38cf9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38cd9000-0x38ce9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38cc9000-0x38cd9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38cb9000-0x38cc9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38ca9000-0x38cb9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38c99000-0x38ca9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38c89000-0x38c99000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38c79000-0x38c89000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38c69000-0x38c79000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38c59000-0x38c69000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38c49000-0x38c59000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38c39000-0x38c49000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38c29000-0x38c39000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38c19000-0x38c29000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38c09000-0x38c19000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38bf9000-0x38c09000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38be9000-0x38bf9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38bd9000-0x38be9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38bc9000-0x38bd9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38bb9000-0x38bc9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38ba9000-0x38bb9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38b99000-0x38ba9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38b89000-0x38b99000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38b79000-0x38b89000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38b69000-0x38b79000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38b59000-0x38b69000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38b49000-0x38b59000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38b39000-0x38b49000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38b29000-0x38b39000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38b19000-0x38b29000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38b09000-0x38b19000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38af9000-0x38b09000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38ae9000-0x38af9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38ad9000-0x38ae9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38ac9000-0x38ad9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38ab9000-0x38ac9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38aa9000-0x38ab9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38a99000-0x38aa9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38a89000-0x38a99000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38a79000-0x38a89000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38a69000-0x38a79000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38a59000-0x38a69000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38a49000-0x38a59000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38a39000-0x38a49000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38a29000-0x38a39000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38a19000-0x38a29000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38a09000-0x38a19000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x389f9000-0x38a09000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x389e9000-0x389f9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x389d9000-0x389e9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x389c9000-0x389d9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x389b9000-0x389c9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x389a9000-0x389b9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38999000-0x389a9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38989000-0x38999000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38979000-0x38989000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38969000-0x38979000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38959000-0x38969000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38949000-0x38959000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38939000-0x38949000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38929000-0x38939000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38919000-0x38929000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38909000-0x38919000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x388f9000-0x38909000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x388e9000-0x388f9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x388d9000-0x388e9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x388c9000-0x388d9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x388b9000-0x388c9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x388a9000-0x388b9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38899000-0x388a9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38889000-0x38899000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38879000-0x38889000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38869000-0x38879000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38859000-0x38869000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38849000-0x38859000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38839000-0x38849000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38829000-0x38839000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38819000-0x38829000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38809000-0x38819000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x387f9000-0x38809000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x387e9000-0x387f9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x387d9000-0x387e9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x387c9000-0x387d9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x387b9000-0x387c9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x387a9000-0x387b9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38799000-0x387a9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38789000-0x38799000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38779000-0x38789000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38769000-0x38779000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38759000-0x38769000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38749000-0x38759000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38739000-0x38749000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38729000-0x38739000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38719000-0x38729000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38709000-0x38719000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x386f9000-0x38709000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x386e9000-0x386f9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x386d9000-0x386e9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x386c9000-0x386d9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x386b9000-0x386c9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x386a9000-0x386b9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38699000-0x386a9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38689000-0x38699000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38679000-0x38689000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38669000-0x38679000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38659000-0x38669000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38649000-0x38659000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38639000-0x38649000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38629000-0x38639000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38619000-0x38629000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38609000-0x38619000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x385f9000-0x38609000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x385e9000-0x385f9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x385d9000-0x385e9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x385c9000-0x385d9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x385b9000-0x385c9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x385a9000-0x385b9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38599000-0x385a9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38589000-0x38599000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38579000-0x38589000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38569000-0x38579000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38559000-0x38569000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38549000-0x38559000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38539000-0x38549000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38529000-0x38539000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38519000-0x38529000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38509000-0x38519000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x384f9000-0x38509000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x384e9000-0x384f9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x384d9000-0x384e9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x384c9000-0x384d9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x384b9000-0x384c9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x384a9000-0x384b9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38499000-0x384a9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38489000-0x38499000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38479000-0x38489000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38469000-0x38479000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38459000-0x38469000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38449000-0x38459000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38439000-0x38449000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38429000-0x38439000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38419000-0x38429000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x38409000-0x38419000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x383f9000-0x38409000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x383e9000-0x383f9000 [REG:RW-] (sig_stack) measured
+debug: adding pages to enclave: 0x37fc5000-0x38011000 [REG:R-X] (code) measured
+debug: adding pages to enclave: 0x38011000-0x38015000 [REG:RW-] (data) measured
+debug: adding pages to enclave: 0x38015000-0x383e9000 [REG:RW-] (bss) measured
+debug: adding pages to enclave: 0x10000-0x37fc5000 [REG:RWX] (free)
+debug: enclave initializing:
+debug:     enclave id:   0x000000003ffff000
+debug:     mr_enclave:   9f5533109fda2570ae38c9a3b92a5e1f59045965d220ce78471fe9ebf8437f8a
+debug: Using SGX DCAP/ECDSA attestation
+-----------------------------------------------------------------------------------------------------------------------
+Gramine detected the following insecure configurations:
+
+  - loader.log_level = warning|debug|trace|all (verbose log level, may leak information)
+  - loader.insecure__use_cmdline_argv = true   (forwarding command-line args from untrusted host to the app)
+  - sys.insecure__allow_eventfd = true         (host-based eventfd is enabled)
+  - sgx.allowed_files = [ ... ]                (some files are passed through from untrusted host without verification)
+
+Gramine will continue application execution, but this configuration must not be used in production!
+-----------------------------------------------------------------------------------------------------------------------
+
+warning: 'loader.preload' is deprecated; please switch to 'loader.entrypoint'
+warning: DkVirtualMemoryProtect is unimplemented in Linux-SGX PAL
+[::] debug: Gramine was built from commit: 1.1
+[::] debug: Host: Linux-SGX
+[::] debug: LibOS xsave_enabled 1, xsave_size 0xa80(2688), xsave_features 0xe7
+[::] debug: Initial VMA region 0x3771d000-0x37798000 (LibOS) bookkeeped
+[::] debug: Initial VMA region 0x3fef5000-0x40000000 (manifest) bookkeeped
+[::] debug: ASLR top address adjusted to 0x112c3000
+[::] debug: Shim loaded at 0x3771d000, ready to initialize
+[::] debug: Mounting root as chroot filesystem: from file:. to /
+[::] debug: Mounting special proc filesystem: /proc
+[::] debug: Mounting special dev filesystem: /dev
+[::] debug: Mounting terminal device /dev/tty under /dev
+[::] debug: Creating pipe: pipe.srv:9c0f740d5ad1b39a129147eaaa0a5a54726868236f0668a08354e0d396f5ef2c
+[P1:T1:] debug: Mounting as chroot filesystem: from file:/usr/lib/x86_64-linux-gnu/gramine/runtime/glibc to /lib
+[P1:T1:] debug: Mounting as chroot filesystem: from file:/usr to /usr
+[P1:T1:] debug: Mounting as chroot filesystem: from file:tmp to /tmp
+[P1:T1:] debug: Mounting as chroot filesystem: from file:/etc to /etc
+[P1:T1:] debug: Mounting as chroot filesystem: from file:/usr/lib/python3 to /usr/lib/python3
+[P1:T1:] debug: Mounting as chroot filesystem: from file:/usr/lib/python3.8 to /usr/lib/python3.8
+[P1:T1:] debug: Mounting as chroot filesystem: from file:/lib/x86_64-linux-gnu to /lib/x86_64-linux-gnu
+[P1:T1:] debug: Mounting as chroot filesystem: from file:/usr/local/lib/python3.8 to /usr/local/lib/python3.8
+[P1:T1:premain-libos] debug: Creating pipe: pipe.srv:fffcb18d303eb0445fd3259927bed18a3875bb6c7add54daaae839629f12cc20
+[P1:T1:premain-libos] debug: Allocating stack at 0 (size = 2097152)
+[P1:T1:premain-libos] debug: loading "file:./premain-libos"
+[P1:T1:premain-libos] debug: find_interp: searching for interpreter: /usr/lib/python3.8/lib/ld-linux-x86-64.so.2
+[P1:T1:premain-libos] debug: find_interp: searching for interpreter: /lib/ld-linux-x86-64.so.2
+[P1:T1:premain-libos] debug: loading "file:/usr/lib/x86_64-linux-gnu/gramine/runtime/glibc/ld-linux-x86-64.so.2"
+[P1:T1:premain-libos] debug: Creating pipe: pipe.srv:1
+[P1:T1:premain-libos] debug: Creating pipe: pipe.srv:9a43eb18f43d1570328a5c5415760a80d30abd81d78154851c55ecc0bfdf6072
+[P1:T1:premain-libos] debug: Shim process initialized
+[P1:shim] debug: IPC worker started
+[P1:T1:premain-libos] debug: glibc register library /lib/libpthread.so.0 loaded at 0x0fa35000
+[P1:T1:premain-libos] debug: glibc register library /lib/libc.so.6 loaded at 0x0f841000
+[P1:T1:premain-libos] warning: Unsupported system call 435
+[P1:T1:premain-libos] debug: Creating pipe: pipe.srv:c0b76647bf09c648bf0e139968167253809b126c4038b57a1a7acf53f05da93d
+[P1:T1:premain-libos] warning: Unsupported system call 435
+[P1:T1:premain-libos] debug: Creating pipe: pipe.srv:3dd29e07004b6414b7de3a330dd098bc98706539a5d20019090c5f8404f20703
+[P1:T1:premain-libos] warning: Unsupported system call 435
+[P1:T1:premain-libos] debug: Creating pipe: pipe.srv:c98101924bca73e00b3c1ff06dcf81930c003ef8b5096dc32cc49974d76b8317
+[P1:T1:premain-libos] warning: Unsupported system call 435
+[P1:T1:premain-libos] debug: Creating pipe: pipe.srv:882300e2ff2afdda3a8160b461a7302cfea8ac06b8f098fbb97cd37b99029f3b
+[P1:T1:premain-libos] debug: Creating pipe: pipe.srv:2eb621dfa0347590a2b3087415f81df599339814e9b33d93897f2cd035926249
+[P1:T1:premain-libos] debug: epoll: added 5 (0x2bfa58c8) to epoll handle 0x2bfa57b8
+[PreMain] 2022/04/01 09:11:44 detected libOS: Gramine
+[PreMain] 2022/04/01 09:11:44 starting PreMain
+[PreMain] 2022/04/01 09:11:44 fetching env variables
+[PreMain] 2022/04/01 09:11:44 loading TLS Credentials
+[PreMain] 2022/04/01 09:11:44 loading UUID
+[PreMain] 2022/04/01 09:11:44 UUID not found. Generating and storing a new UUID
+[PreMain] 2022/04/01 09:11:44 generating CSR
+[PreMain] 2022/04/01 09:11:44 generating quote
+[PreMain] 2022/04/01 09:11:44 activating marble of type Threads
+[P1:T4:premain-libos] warning: Unsupported system call 435
+[P1:T4:premain-libos] debug: Creating pipe: pipe.srv:0fa10a1d82e0e4734b52ec57644624fc9002928c0c54fc14bbdfac48e013af3f
+[P1:T1:premain-libos] debug: epoll: added 3 (0x2bfa56a8) to epoll handle 0x2bfa57b8
+[P1:T1:premain-libos] debug: epoll: deleted 3 (0x2bfa56a8) from epoll handle 0x2bfa57b8
+[P1:T1:premain-libos] debug: epoll: added 3 (0x2bfa5ae8) to epoll handle 0x2bfa57b8
+[P1:T1:premain-libos] debug: epoll: deleted 3 (0x2bfa5ae8) from epoll handle 0x2bfa57b8
+[P1:T1:premain-libos] debug: epoll: added 3 (0x2bfa56a8) to epoll handle 0x2bfa57b8
+[PreMain] 2022/04/01 09:11:44 creating files from manifest
+[PreMain] 2022/04/01 09:11:44 setting env vars from manifest
+[PreMain] 2022/04/01 09:11:44 done with PreMain
+[P1:T3:premain-libos] debug: epoll: deleted 3 (0x2bfa56a8) from epoll handle 0x2bfa57b8
+[P1:T5:premain-libos] debug: Creating pipe: pipe.srv:e3b1ab012a19f7c79fde97dab40146be015022e1d7c038e949cc21ea5cefe87c
+[P1:T4:python3.8] debug: Allocating stack at 0 (size = 2097152)
+[P1:T4:python3.8] debug: loading "file:/usr/bin/python3.8"
+[P1:T5:premain-libos] debug: Installed async event at 1648804304910883
+[P1:shim] debug: Async worker thread started
+[P1:T2:premain-libos] debug: Installed async event at 1648804304910893
+[P1:T6:premain-libos] debug: Installed async event at 1648804304910902
+[P1:T1:premain-libos] debug: Installed async event at 1648804304910927
+[P1:shim] debug: Thread exited, cleaning up
+[P1:shim] debug: Thread exited, cleaning up
+[P1:shim] debug: Thread exited, cleaning up
+[P1:shim] debug: Thread exited, cleaning up
+[P1:T3:premain-libos] debug: Installed async event at 1648804304910974
+[P1:shim] debug: Thread exited, cleaning up
+[P1:T4:python3.8] debug: find_interp: searching for interpreter: /usr/lib/python3.8/lib/ld-linux-x86-64.so.2
+[P1:T4:python3.8] debug: find_interp: searching for interpreter: /lib/ld-linux-x86-64.so.2
+[P1:T4:python3.8] debug: loading "file:/usr/lib/x86_64-linux-gnu/gramine/runtime/glibc/ld-linux-x86-64.so.2"
+[P1:T4:python3.8] debug: execve: start execution
+[P1:T4:python3.8] debug: glibc register library /lib/libc.so.6 loaded at 0x11099000
+[P1:T4:python3.8] debug: glibc register library /lib/libpthread.so.0 loaded at 0x11094000
+[P1:T4:python3.8] debug: glibc register library /lib/libdl.so.2 loaded at 0x1108f000
+[P1:T4:python3.8] debug: glibc register library /lib/libutil.so.1 loaded at 0x1108a000
+[P1:T4:python3.8] debug: glibc register library /lib/libm.so.6 loaded at 0x10faf000
+[P1:T4:python3.8] debug: glibc register library /lib/x86_64-linux-gnu/libexpat.so.1 loaded at 0x10f7f000
+[P1:T4:python3.8] debug: glibc register library /lib/x86_64-linux-gnu/libz.so.1 loaded at 0x10f63000
+running main
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:c78ff6bcfb420be0811d5da7ceabfa005dd82d556e729532f5277677983fe866
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:8d9a6a0d7ad063e7c1987dce2618829142bffeeadb2e16f515dafa45da27643c
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:ebcdaeb089dc37e9f647f4455a39281c40e4deb7e539fdc2d5c9152441104367
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:dafaabee044ff83b4ba19a7d297150db0787f7e27808073fd158e9def84a0d3c
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:d21525fbc94301a1203fc4761afed95ba2c0b7d5584d890d6609827c7207100d
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:d3a2ed32112ae3ef6fcb83adbc049d12aec41ee3c8fbc8942a419edc366de4b5
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T12:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:4db998ad67030004e8196432faacc4eb6fdaed8a2709a88f99a63f09848919bd
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T13:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:2691eec4ac013b693c4e655a3a7de7c4f5d441016af7559699fdfb02581f7a1a
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T14:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:96a92279f8b0b57b02f3656a30994974bb039a702b83b6b007cbfe4a4fbbd667
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T15:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:ffc20bdaa8455e908c5aec53aa6133bcefae2b17acaafd504ae587142b67b267
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T16:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T16:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:f470ea4d060d62b6fdb62695cbc681be001097b1f1fa993054aac5778ed50b92
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T17:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:77f4ec2eb794909a77068923ada227ec33cf643d1a84ede1babf02aebe14ad49
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T18:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:3fa01de1351c0df722b9c1d9552f297415477ce04a6168ba5f4973bfc5631540
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T19:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:b52bbeee8df905f66ed8942a3c62f4ff90b37fd69b1355a04dbf84f0ee7116b8
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T20:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:b77b2ebc20539e84260aa1be896a7e5e878fead3c85ae104bc415048100a5a55
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T21:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:a79fc35451270f65607d3cc56033435a90d767a81e637466b0d4991cf118891b
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T22:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:33fa22b4bb5c966861d99aac6abd7da1f5938681aa10aa17fe9d2b9caf5e2a7d
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T23:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:afc24687c04af5c8042bb7d8b298007d35f7334b9c2cbcf8940eb840969b6e5d
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T24:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:fd9d04431c17408b537342c1460cd682e2eed747e6364104e3f06b848ee084a4
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T25:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:fbc727825ad621aeacd45a8e087b3a623d7e3df204cf75e0992ec73970b60316
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T26:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:213f09ca9b18f742d50d63e7c33eb6db1d89ebaab120fbbc1cb418d4893b7670
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T27:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T27:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:880b1821bb96525caafeb1d8308866bc55386a92460c09d40e7fd1fad8c41caa
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T28:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:e30a2d79c011479d9e6123c0e3524d37860ba2187d80700f918beb8f138cfcc0
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T29:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:64c782c7a118ac62302f6e517a1bbd93b955bbf2d76bd048ebfb1097c29852b7
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T30:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:688f3944852d8dfd0583edf13d40161a59a68afb645eaf98be5b21d17caa19c2
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T31:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:09cec2d3d51bc6bcf6d73e6189dd17acd1f24c85e6db0724ef212f3cd8e3f623
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T32:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:9b5015190a21b8b02ec29bc5ac77dd117e39a039270a759862546f7fd0cf19bd
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T33:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:43bf6fbdba0706f77a4d0143a7948bc32abba1347ec8b7be7b6e081dd1044ea1
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T34:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:2259060113d3b9c04abc7f4765bc3fc3d88686964e0f7c814f5a2f120914a61b
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T35:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:9bee22054d4cbf58fa48421de48cb3fba6ee05770ba19ef44e3279bc445ce7e3
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T36:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:08e12a799cc0bc332bc1a0deabbfd6d57bfee293eec7c973c2d9d85c54b88483
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T37:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:531195e82f813cd0e5981f9d5c7e5b3dbdee1d39dff86aa4e3e28a6bcb9785f9
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T38:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:7ff8a9f125498f085a2ec412c6cafbc1c870d3db3f71aa31f136975234c6ef2e
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T39:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:c054f70d3e1fd5b204b58f509bce02de8b0dc7683db33ab650eb1fbb94cfb2df
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T40:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:87c9ae4ba65658dc53090da692cb5fbfc20b5ac42635adc59475d122d520ef2f
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T41:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:4c7fd1acca2e529cfa2229825afefc1ea307a26b99481540dd8c5ae8a8c423b7
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T42:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:1fb9b93e3d4387095f688d34a1ed22713610fe531d7b4b3aa47e0181e1b1690a
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T43:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:40adaf17bb27c1fe98844a938581276ebdcfc71c7efc0d0976a5b3e98eff1629
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T44:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:70cc318ef9ed6ef7860c0a9c33b103f784d2ad421f4b45d12cd74881a3e00881
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T45:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:1565a25166c5b9d4286ba264a102fffff385f2caca972713d9cdd442029fb218
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T46:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:9f53ac93d65876e3f4dda77b23a7237aeddb9b3dd5a2b7dcef7db1ca12c8664e
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T47:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:f843e10907a46b7444ce0e303dfedba256e372e655857c61cda4cee5b26b0159
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T48:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T48:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:0dfff7b957a02e28295186ea2e1c743286ca7f6606508c293cc6341d77803791
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T49:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:cf44806b2b058325f67f5becbddb36b00a1f0a4e53ad8116be020629693da633
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T50:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:81a1f9810a350197674d5a011f7ad9d7623fc12d158c52ed7fdc37bd0ed9e20b
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T51:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:c61ed725620b15a74749537380b456e2dbaa594d4d11b32e2af3c2007bddfed6
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T52:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:8ca713fc240b955503d6a7e61af1a9b1a437f763408007d74a6a1328c915bc84
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T53:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:4b686712d72d076643ec45899043000bfb480fd25b6910cb193d70cb9b761a34
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T54:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:9d7b5ced0933312950e02eeff542601e4b44af65a6b13b79e10904970b133174
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T55:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:bb4b14b177771de895e3cc06f1c0f7a82f879b972770210521c7b12f0be28ae9
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T56:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T56:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:ee00b659a1ff26b98b8927dd75f7f2b46bdd2ca1e75128fb721854a6c3c72856
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T57:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T57:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:f8b14ddbc1c5fb3afce480e5673e7661179a15217d45a9d31f4edf8ffa0affb8
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T58:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:7c942370577ac33c0ba218a8df1f106413b16960f260d5e8e250d8b5f6c8b710
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T59:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:498ab18e3952468dfc25879bdea3826b39aed64f87c6d1b224840b7501657bd5
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:25c3590bbcb2340ac3f296ae68ff5802fac44340af05d7875607b14230064a7c
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:7c9efe9bfd4b3e294c9304f57e55379e8b41f59320e1dd4838ce2b58fccc0ac7
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:3de6cdc4af396301645a0dc45600cfd1d6992d101b98e4db94c3aa0c48f2c892
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:e4ad1e0ff8c350ea424de0a0256748b4702d55cc1522d6d042ef55b4ea3c23bd
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:4d606e8a4e8e58ab645d567631ea9dc81efb506264f907d8341ad2551093d913
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:75a36cf17da66980871942f0e589e8e2fbcff3e510612a169721a7816ab2808e
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:daded797be473063ab9f470812cc2376542883e1722ed777405121842877c361
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:96401d4dc7f76d8c111c51c7c1816454585921959fc641d9577a682cb7f8bf95
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:150a36e6a8e012f2a26ee09cfdd9ff7a1fd6a46acab12f0b128254d0eed56c8c
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:c69ad78a1487a9ba28a5c7f3eee9f54d4f89d8420a55c7b1d7375d0d46d8d5a2
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:055a93e8dffc0c531234b02c6f93503d41515fdb50e1086dec52cc23f249117c
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:e33aeeedd07a0f647a505242031a6ec7f90102500c7760d8d2eb1fd2461f957e
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:06d457d262ac733996425be5d4a4d90628fc3d1cec61ab6bc0997e94c13909c7
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:6f3d078b46c3c0a0bff6032eeae66a2217a05204f1f374cf76419e2cdb22aee9
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:fb80f5bcd48befca642dcfc1a68c8fa8dba2273df6962f50af0ab980001da449
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:634180163a6278c6a6b8834673a6dc22b0c7f2a8ebdabe69ec1262ed83c0af9f
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:f6ba45a53e2412d7b32c73f88c31bd7d3d74e067044742fe3ec758328235cc3d
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:3d4a4ed56f8340e96301c83be9a8567dc0d49610647af37183a890d61b6b908c
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:0ede1ecf83a539fb105c9a9ab2a7810b9314231007c28084f6da19044793c44a
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:ec9e808c99aa775da1c758e4499c6af0eecd93706d285ce3789ae9ac02b49f54
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:ab6f860941091855869570faa6866c686055c98141ab91aa7cbf6e6b6035cf29
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:811d89c2153b68d65d4a55040c96729661a82e4036f11d08a52edb9b0507f524
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:2a2a17e322c39b2827b7b2d4a5740b11f6ec55406deb8f29073b3614243cf181
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:2481bf67adc3f23a5e1ad165f4e49ab5d9574fb0c83ba81c74238951afac34f1
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:31707a2708e28ef555358dbe5df0d528216025c1d879a187bb3e1b5bc8c54ae7
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:38d303298dfaafebdbc5ff45c7490e06ca106b107c8b76af1f1b4b83d6d1e265
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:2707e963e53485c5bcb3d713ac1297ccaa10cdf435d963ca9cca256f2e575b7b
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:d841ced29b3544a75f05813020d4dbf406b73926d6c6088226c61ec43fad3b9a
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:a749571b7ce66574b3b7eb27fa2f0a8bbf23cbb9715fa9ec6e873cd6c5767c3e
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:8d1a6493fcc1c3c6e39eacabb3f21cc14841dc086f3b4574dfd607c26a0347e6
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:1193768138ce8ec2ae7c6f07be655eebde19fd9e37c00855d27579de21290e83
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:c88be893425fd44c557e435bda0ccb2d01ce78efe1614d6d709d0a6e346962fe
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:d46bd4081142a9f614a5ee610ba9017341b44f2a42c80addbd5f37e89ff27ff7
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:30ad5e6f4a8244bc8e1bf44b8d6ac8686a03d923f83334ce98aa3a8b4bf48b62
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:54f78ca46308b6932ac22ba36d951c51b53fd29cde81c900a7e132dfb3e98eb7
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:590dd7c7f836f3e9571d9f4bb81f2dd8ea26efd7d1c436ee695deffafa24b0a7
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:15acf4ae96c21e42f21ca6be9d74d0331d77fa2b769f27c1c36ccec02944f144
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:b48f66d7b790e8a1a6561d9639bdac042da797d19b4f6d46f45780a46652f34a
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:f854b7ebeb25807707be63f3ef9864790025f38947645e89fae7e9385d559f35
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:3ef096bb6e71114bf024dac071d2471c84f970bc3006a7efd943fce6739b47ce
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:cc9143541f68a05f546f0b6825b9efe077ac94575d868846d9937fdad8b18cc5
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:33880a95b34a1fac262a4462ee9e220f3120f828bd62abb58be351bc5e3f2b58
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:25f22ece2de003a7c193016bda03f30a58796bcfcc2d0c5156a115678802481a
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:74a22698f0261fc1830221f3cee29e218d8db4a03b7d1a72d2598e317c8e9093
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:d34182e24c0f5e86c0c4f60531a37d835033552a14eb6b6f72f7656b9bc39d8c
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:2b9140e6aa0457563a1bb499a8418126983763d354a0308420020461c1640b13
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:ce45c0a58cebc8de2881cdbbc83a28e402b2c77efda5869da93c6b52c0ebd7d6
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:4e326f4eeb5bf090df1d55870f20044e061905849cf972123957ef9175ecc6a5
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:01f59f172baa934af1d2199e44ed96e028894eba5fab6b8d92934bf9779feada
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:fc30b1ce93b544ad989bd734a62d5ea49b5cb5904442064c27f40078156d9ca5
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:0262f40bb8a925cef9252e92b6317847134bc894722a8601d97886fea93076ea
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:5942738eee101d7b310a83ecc7cda81d89e231fea3ca11cef721ef970d99222b
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:a980038026f305770a4089620e5a0fd7a09e0b7589854acd7f1cfbcf9ff77304
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:a53f0d5e7f1679ee9375bbba3afda4ed81fce9a547b851beee49a161f34a2b4f
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:dd73928e67a6697f1066e555e11f61206eba4c668ac36e8781305a6a82ed36c2
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:7abc3468520ea4bfbef5d3005452226efaca3d4d0d7daf0f9969875bb1ca34d6
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:c27f19c86d061e5860cdacb00f42ad123ee9438b1316abb3ab148bfdc1112799
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:101f92456bae0adb547ff03188f45087b40eda7cf151d88cfc60f6b75122115e
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:75d56fbc99e88be1ca293bce7906d4bf3b785047b9083463a302533f5eb02638
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:567b17626e903b40510d0e5093e9abcdf311991e5e92c32bd41642351a8da2ad
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:455e030da6acd00a4b9d06be7d386dfc3bfb20cb0a6c3cbf460ceadb4bedc802
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:b847000d044e8fd3e808de392fda37aa21060f967dd50f970dad515c2d67a6ab
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:5bd3e5c3e14930255068c51e7814941474525cc288e71e7c8193ce0a5db6dd3d
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:35aa67683ef1ae25050c5ac9f1f2dde288c4f99492f7ce86597443a70757982e
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:052b4c37b1750a03e5b5a6154bf2378a090a15117743eb1a7a8d2e26c7e69c00
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:c038c826a132eb7c1ff45c5704a7a109fe36888aecd2e4520d021e2d99791e45
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:916aae967a9b6e8c6986f3727419e1cba029622b8102b340591890178e7f6204
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:56f4e9673178d6a18ef6384be6a3f728bf61ee2634c82a9c6bf6a42448d23fea
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:26e26925f53a4e7f161813e8699730e68b202aacf3733fd8fbd3282c1e2ce736
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:90201fb945aa0f5fc114c6190fc57f3866b3a7a0e67d7c6baa4191f0cd83b1ba
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:537696575c00b1f7db7064e597c3d5677bc77a5e74b5b46ad022422e532eb297
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:251e4a80476e77d99f2e59086b3ae30bc496f2d439cf0cb15ae3b541bcd2f309
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:785750ebc79c1ea1a168950bf5eb625e0f2470d62c04016028c70f7778fbdc17
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P1:T4:python3.8] warning: Unsupported system call 435
+[P1:T4:python3.8] debug: Creating pipe: pipe.srv:a3653359e1bfbf2dfda76a6a23e3cbf1f49f0b6db60fe3d1b32c25c5f27eef9e
+[P1:T4:python3.8] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+sleeping since 0 seconds
+sleeping since 1 seconds
+sleeping since 2 seconds
+sleeping since 3 seconds
+sleeping since 4 seconds
+sleeping since 5 seconds
+sleeping since 6 seconds
+sleeping since 7 seconds
+sleeping since 8 seconds
+sleeping since 9 seconds
+sleeping since 10 seconds
+sleeping since 11 seconds
+sleeping since 12 seconds
+sleeping since 13 seconds
+sleeping since 14 seconds
+sleeping since 15 seconds
+sleeping since 16 seconds
+sleeping since 17 seconds
+sleeping since 18 seconds
+sleeping since 19 seconds
+sleeping since 20 seconds
+sleeping since 21 seconds
+sleeping since 22 seconds
+sleeping since 23 seconds
+sleeping since 24 seconds
+sleeping since 25 seconds
+sleeping since 26 seconds
+sleeping since 27 seconds
+sleeping since 28 seconds
+sleeping since 29 seconds
+sleeping since 30 seconds
+sleeping since 31 seconds
+sleeping since 32 seconds
+sleeping since 33 seconds
+sleeping since 34 seconds
+sleeping since 35 seconds
+sleeping since 36 seconds
+sleeping since 37 seconds
+sleeping since 38 seconds
+sleeping since 39 seconds
+sleeping since 40 seconds
+sleeping since 41 seconds
+sleeping since 42 seconds
+sleeping since 43 seconds
+sleeping since 44 seconds
+sleeping since 45 seconds
+sleeping since 46 seconds
+sleeping since 47 seconds
+sleeping since 48 seconds
+sleeping since 49 seconds
+sleeping since 50 seconds
+sleeping since 51 seconds
+sleeping since 52 seconds
+sleeping since 53 seconds
+sleeping since 54 seconds
+sleeping since 55 seconds
+sleeping since 56 seconds
+sleeping since 57 seconds
+sleeping since 58 seconds
+sleeping since 59 seconds
+sleeping since 60 seconds
+sleeping since 61 seconds
+sleeping since 62 seconds
+sleeping since 63 seconds
+sleeping since 64 seconds
+sleeping since 65 seconds
+sleeping since 66 seconds
+sleeping since 67 seconds
+sleeping since 68 seconds
+sleeping since 69 seconds
+sleeping since 70 seconds
+sleeping since 71 seconds
+sleeping since 72 seconds
+sleeping since 73 seconds
+sleeping since 74 seconds
+sleeping since 75 seconds
+sleeping since 76 seconds
+sleeping since 77 seconds
+sleeping since 78 seconds
+sleeping since 79 seconds
+sleeping since 80 seconds
+sleeping since 81 seconds
+sleeping since 82 seconds
+sleeping since 83 seconds
+sleeping since 84 seconds
+sleeping since 85 seconds
+sleeping since 86 seconds
+sleeping since 87 seconds
+sleeping since 88 seconds
+sleeping since 89 seconds
+sleeping since 90 seconds
+sleeping since 91 seconds
+sleeping since 92 seconds
+sleeping since 93 seconds
+sleeping since 94 seconds
+sleeping since 95 seconds
+sleeping since 96 seconds
+sleeping since 97 seconds
+sleeping since 98 seconds
+sleeping since 99 seconds
+sleeping since 100 seconds
+sleeping since 101 seconds
+sleeping since 102 seconds
+sleeping since 103 seconds
+sleeping since 104 seconds
+sleeping since 105 seconds
+sleeping since 106 seconds
+sleeping since 107 seconds
+sleeping since 108 seconds
+sleeping since 109 seconds
+sleeping since 110 seconds
+sleeping since 111 seconds
+sleeping since 112 seconds
+sleeping since 113 seconds
+sleeping since 114 seconds
+sleeping since 115 seconds
+sleeping since 116 seconds
+sleeping since 117 seconds
+sleeping since 118 seconds
+sleeping since 119 seconds
+sleeping since 120 seconds
+sleeping since 121 seconds
+sleeping since 122 seconds
+sleeping since 123 seconds
+sleeping since 124 seconds
+sleeping since 125 seconds
+sleeping since 126 seconds
+sleeping since 127 seconds
+sleeping since 128 seconds
+sleeping since 129 seconds
+sleeping since 130 seconds
+sleeping since 131 seconds
+sleeping since 132 seconds
+sleeping since 133 seconds
+sleeping since 134 seconds
+sleeping since 135 seconds
+sleeping since 136 seconds
+sleeping since 137 seconds
+sleeping since 138 seconds
+sleeping since 139 seconds
+sleeping since 140 seconds
+sleeping since 141 seconds
+sleeping since 142 seconds
+sleeping since 143 seconds
+sleeping since 144 seconds
+sleeping since 145 seconds
+sleeping since 146 seconds
+sleeping since 147 seconds
+sleeping since 148 seconds
+sleeping since 149 seconds
+sleeping since 150 seconds
+sleeping since 151 seconds
+sleeping since 152 seconds
+sleeping since 153 seconds
+sleeping since 154 seconds
+sleeping since 155 seconds
+sleeping since 156 seconds
+sleeping since 157 seconds
+sleeping since 158 seconds
+sleeping since 159 seconds
+sleeping since 160 seconds
+sleeping since 161 seconds
+sleeping since 162 seconds
+sleeping since 163 seconds
+sleeping since 164 seconds
+sleeping since 165 seconds
+sleeping since 166 seconds
+sleeping since 167 seconds
+sleeping since 168 seconds
+sleeping since 169 seconds
+sleeping since 170 seconds
+sleeping since 171 seconds
+sleeping since 172 seconds
+sleeping since 173 seconds
+sleeping since 174 seconds
+sleeping since 175 seconds
+sleeping since 176 seconds
+sleeping since 177 seconds
+sleeping since 178 seconds
+sleeping since 179 seconds
+sleeping since 180 seconds
+sleeping since 181 seconds
+sleeping since 182 seconds
+sleeping since 183 seconds
+sleeping since 184 seconds
+sleeping since 185 seconds
+sleeping since 186 seconds
+sleeping since 187 seconds
+sleeping since 188 seconds
+sleeping since 189 seconds
+sleeping since 190 seconds
+sleeping since 191 seconds
+sleeping since 192 seconds
+sleeping since 193 seconds
+sleeping since 194 seconds
+sleeping since 195 seconds
+sleeping since 196 seconds
+sleeping since 197 seconds
+sleeping since 198 seconds
+sleeping since 199 seconds
+sleeping since 200 seconds
+sleeping since 201 seconds
+sleeping since 202 seconds
+sleeping since 203 seconds
+sleeping since 204 seconds
+sleeping since 205 seconds
+sleeping since 206 seconds
+sleeping since 207 seconds
+sleeping since 208 seconds
+sleeping since 209 seconds
+sleeping since 210 seconds
+sleeping since 211 seconds
+sleeping since 212 seconds
+sleeping since 213 seconds

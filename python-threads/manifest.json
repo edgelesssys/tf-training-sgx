@@ -1,0 +1,20 @@
+{
+    "Packages": {
+        "threads": {
+            "SignerID": "43361affedeb75affee9baec7e054a5e14883213e5a121b67d74a0e12e9d2b7a",
+            "ProductID": 3,
+            "SecurityVersion": 1
+        }
+    },
+    "Marbles": {
+        "Threads": {
+            "Package": "threads",
+            "Parameters": {
+                "Argv": [
+                    "python",
+                    "main.py"
+                ]
+            }
+        }
+    }
+}
