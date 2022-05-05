@@ -2,6 +2,31 @@
 
 This setup runs MarbleRun in simulation mode, with TF Training running using `gramine-direct`.
 
+## Install MarbleRun
+
+You can deploy MarbleRun on Kubernetes using the CLI:
+```shell
+marblerun install --simulation
+marblerun check
+kubectl -n marblerun port-forward svc/coordinator-client-api 4433:4433 --address localhost >/dev/null &
+```
+
+If you wish to run MarbleRun standalone, outside of Kubernetes, you can use our docker image:
+```shell
+docker run -it --rm \
+   --network host \
+   --device /dev/sgx_enclave \
+   --device /dev/sgx_provision \
+   -v /dev/sgx:/dev/sgx \
+   -e OE_SIMULATION=1 \
+   ghcr.io/edgelesssys/coordinator
+```
+
+After the MarbleRun Coordinator has started, you will need to set the manifest.
+```shell
+marblerun manifest set manifest.json localhost:4433 --insecure
+```
+
 ## Training test
 
 Start the training workflow:
