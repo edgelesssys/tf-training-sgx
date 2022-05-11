@@ -26,7 +26,7 @@ Pods terminate successfully after training has finished.
 A key is needed to sign the Gramine enclaves.
 Generate an RSA key using the following command:
 ```shell
-openssl genrsa -out signing_key.pem 3072
+openssl genrsa -3 -out signing_key.pem 3072
 ```
 
 Build the docker image using the following command:
